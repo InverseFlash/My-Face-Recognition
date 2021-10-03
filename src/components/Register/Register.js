@@ -27,7 +27,6 @@ class Register extends React.Component {
       method: "post",
       headers: {
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
       },
       body: JSON.stringify({
         name: this.state.name,
