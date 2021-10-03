@@ -10,9 +10,11 @@ The web app is composed of 3 parts.
 
 ## How to use?
 
+---
+
 ### Sign in or Register
 
-Naviagte here: [Live Demo](https://dry-citadel-98524.herokuapp.com/)
+Navigate here: [Live Demo](https://dry-citadel-98524.herokuapp.com/)
 
 If you do not have an account, create an account using the "Register" link at the top right.
 
