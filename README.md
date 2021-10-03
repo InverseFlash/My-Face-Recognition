@@ -18,7 +18,11 @@ If you do not have an account, create an account using the "Register" link at th
 
 If you have an account, sign in from the home page.
 
-**Note:** Please use a mock/dummy email and password. Although your credentials are encrypted before they are stored, this app is for demo purposes only.
+**Note:**
+
+- Please use a mock/dummy email and password. Although your credentials are encrypted before they are stored, this app is for demo purposes only.
+
+- The web app may take a few moments before loading as Heroku Cloud puts it to sleep when not in use.
 
 ### Detect a face
 
