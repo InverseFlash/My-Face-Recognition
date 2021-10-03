@@ -23,10 +23,11 @@ class Register extends React.Component {
   };
 
   onSubmitRegister = () => {
-    fetch('https://infinite-anchorage-33706.herokuapp.com/register', {
+    fetch("https://infinite-anchorage-33706.herokuapp.com/register", {
       method: "post",
       headers: {
         "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
       },
       body: JSON.stringify({
         name: this.state.name,
@@ -41,7 +42,7 @@ class Register extends React.Component {
           this.props.onRouteChange("home");
         }
       })
-      .catch(err => console.log(err));
+      .catch((err) => console.log(err));
   };
 
   render() {
